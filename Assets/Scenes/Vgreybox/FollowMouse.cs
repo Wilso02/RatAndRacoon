@@ -4,30 +4,14 @@ using UnityEngine;
 
 public class FollowMouse : MonoBehaviour
 {
-    private Camera mainCamera;
-    [SerializeField]
-    private float maxSpeed = 10f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        mainCamera = Camera.main;
-    }
+    Vector3 pos;
+    public float offset = 3f;
 
-    // Update is called once per frame
     void Update()
     {
-        FollowMousePos();
-    }
-
-    private void FollowMousePos()
-    {
-        transform.position = GetworldPosFromMouse();
-
-    }
-    private Vector2 GetworldPosFromMouse()
-    {
-        return mainCamera.ScreenToWorldPoint(Input.mousePosition);
-
+        pos = Input.mousePosition;
+        pos.z = offset;
+        transform.position = Camera.main.ScreenToWorldPoint(pos);
     }
 
 }
