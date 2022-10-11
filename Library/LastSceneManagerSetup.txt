@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MicroGames/IdentifyMissing/IdentifyMissing.unity
+- path: Assets/MicroGames/SearchWeapons/SearchWeapons.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
