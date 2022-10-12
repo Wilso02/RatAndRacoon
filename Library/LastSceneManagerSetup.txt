@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MicroGames/SampleScene.unity
+- path: Assets/MicroGames/Liam_GreyBox.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
