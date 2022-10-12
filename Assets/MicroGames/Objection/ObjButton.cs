@@ -22,7 +22,7 @@ public class ObjButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //rend = GetComponent<Renderer>();
+        rend = GetComponent<Renderer>();
        // rend.enable = true;
        // rend.sharedMaterial = materials(0);
 
