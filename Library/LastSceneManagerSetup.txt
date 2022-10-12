@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/MicroGames/SearchWeapons/SearchWeapons.unity
+=======
+- path: Assets/Scenes/V_Greybox.unity
+>>>>>>> VgreyBOX
   isLoaded: 1
   isActive: 1
   isSubScene: 0
