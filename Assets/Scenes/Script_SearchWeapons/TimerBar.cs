@@ -34,7 +34,16 @@ public class TimerBar : MonoBehaviour
         if(time <= 0)
         {
             stopTimer = true;
-            GameOverScreen.transform.position = (2, 3, -6);
+            /*GameOverScreen.transform.position = x,y,z
+            x = 2;
+            y = 3;
+            z = -6;
+            (2,3,-6);
+            */
+
+            GameObject.Find("GameOverScreen").transform.position = new Vector3(2,3,-6);
+            GameObject.Find("Slider").SetActive(false);
+            //Canvas.enabled = false;
         }
 
         if (stopTimer == false)
