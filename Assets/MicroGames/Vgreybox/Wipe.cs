@@ -6,11 +6,11 @@ public class Wipe : MonoBehaviour
 {
     void OnTriggerEnter(Collider collisionData)
     {
-      
-        if (collisionData.gameObject.name == "player")
+        
+        if (collisionData.gameObject.name == "RacoonTail")
         {
-            print("ew player, go away");
-
+            print("you win");
         }
+
     }
 }
