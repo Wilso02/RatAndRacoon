@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/MicroGames/IdentifyMissing/Missing_Scripts/IdentifyMissing.cs"
+"Assets/MicroGames/Objection/EventManager.cs"
 "Assets/MicroGames/Objection/ObjButton.cs"
 "Assets/MicroGames/Vgreybox/FollowMouse.cs"
 "Assets/MicroGames/Vgreybox/Wipe.cs"
