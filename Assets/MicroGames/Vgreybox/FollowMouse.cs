@@ -5,7 +5,8 @@ using UnityEngine;
 public class FollowMouse : MonoBehaviour
 {
     Vector3 pos;
-    public float offset = 3f;
+    public float offset = 3f; 
+   
 
     void Update()
     {

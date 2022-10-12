@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Wipe : MonoBehaviour
 {
-    void OnTriggerEnter(Collider collisionData)
-    {
-      
-        if (collisionData.gameObject.name == "player")
+    void OnTriggerEnter(Collider other)
         {
-            print("ew player, go away");
+      
+        if (other.gameObject.name == "player")
+        {
+            Debug.Log("ew player, go away");
 
         }
     }
