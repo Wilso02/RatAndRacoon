@@ -14,7 +14,7 @@ public class GameOverScript : MonoBehaviour
         EventGameOver.OnClicked -= GameOver;
     }
 
-    void GameOver()
+    public void GameOver()
     {
         Vector3 pos = transform.position;
         pos.x = 2;

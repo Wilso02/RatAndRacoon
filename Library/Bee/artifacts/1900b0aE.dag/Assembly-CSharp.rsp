@@ -353,6 +353,7 @@
 "Assets/Scenes/Script_SearchWeapons/EventWin.cs"
 "Assets/Scenes/Script_SearchWeapons/GameOverScript.cs"
 "Assets/Scenes/Script_SearchWeapons/SearchWeapons.cs"
+"Assets/Scenes/Script_SearchWeapons/TimerBar.cs"
 "Assets/Scenes/Script_SearchWeapons/WinPanel.cs"
 -langversion:9.0
 
