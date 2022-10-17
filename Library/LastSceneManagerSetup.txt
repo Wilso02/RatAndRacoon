@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/MicroGames/IdentifyMissing/IdentifyMissing.unity
-=======
-- path: Assets/MicroGames/ChaseScene/SampleScene.unity
->>>>>>> pain
+- path: Assets/MicroGames/Liam_GreyBox.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
