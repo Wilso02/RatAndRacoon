@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MicroGames/V_Greybox.unity
+- path: Assets/MicroGames/CatchCriminal/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
