@@ -349,7 +349,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+<<<<<<< HEAD
 "Assets/MicroGames/ChaseScene/ChaseScene_Scripts/Charcter_Movement.cs"
+=======
+"Assets/MicroGames/ChaseScene/Mash.cs"
+>>>>>>> pain
 "Assets/MicroGames/IdentifyMissing/Missing_Scripts/IdentifyMissing.cs"
 "Assets/MicroGames/Vgreybox/dusty.cs"
 "Assets/MicroGames/Vgreybox/FollowMouse.cs"
