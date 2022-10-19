@@ -1,9 +1,1 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/MicroGames/IdentifyMissing/IdentifyMissing.unity
-=======
-- path: Assets/MicroGames/ChaseScene/SampleScene.unity
->>>>>>> pain
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+sceneSetups: []
