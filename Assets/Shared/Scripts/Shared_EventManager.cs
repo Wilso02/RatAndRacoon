@@ -15,8 +15,6 @@ public class Shared_EventManager : MonoBehaviour
 
     }
         
-    
-
     //Event for a Time Lose Function
     public delegate void StopTheTimer();
     public static event StopTheTimer StopTimer;
@@ -28,11 +26,27 @@ public class Shared_EventManager : MonoBehaviour
 
     }
 
-
     //Event for the Lose Function
+    public delegate void LosingEvent();
+    public static event LosingEvent LostTheGame;
 
+    public static void GameOver()
+    {
 
+        LostTheGame();
+
+    }
 
     //Event for Win Function
+    public delegate void WinningEvent();
+    public static event WinningEvent GameCompleted;
 
+    public static void GameWon()
+    {
+
+        GameCompleted();
+
+    }
+
+    
 }

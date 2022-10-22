@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts&amp;Materials\Objection\ObjButton.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\WinPanel.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\TimerBar.cs" />
+    <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\GameOverScript.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\Charcter_Movement.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\SearchWeapons.cs" />
@@ -67,9 +68,10 @@
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\EventGameOver.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Wipe.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\FollowMouse.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\Objection\Text.cs" />
-    <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_EventManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Objection\Text.cs" />
+    <Compile Include="Assets\Shared\Scripts\Shared_Lives.cs" />
+    <Compile Include="Assets\Shared\Scripts\Shared_SceneManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
