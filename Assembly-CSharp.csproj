@@ -53,11 +53,23 @@
     <UnityVersion>2021.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MicroGames\Vgreybox\dusty.cs" />
-    <Compile Include="Assets\MicroGames\IdentifyMissing\Missing_Scripts\IdentifyMissing.cs" />
-    <Compile Include="Assets\MicroGames\Vgreybox\Wipe.cs" />
-    <Compile Include="Assets\MicroGames\Vgreybox\FollowMouse.cs" />
-    <Compile Include="Assets\MicroGames\ChaseScene\ChaseScene_Scripts\Charcter_Movement.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\Mash.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\dusty.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Objection\ObjButton.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\WinPanel.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\TimerBar.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\GameOverScript.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\Charcter_Movement.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\SearchWeapons.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\IdentifyMissing.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\EventWin.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Objection\EventManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\EventGameOver.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Wipe.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\FollowMouse.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Objection\Text.cs" />
+    <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
+    <Compile Include="Assets\Shared\Scripts\Shared_EventManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
