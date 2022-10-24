@@ -12,6 +12,7 @@ void OnTriggerEnter(Collider collisionData)
 
         if (collisionData.gameObject.name == "RacoonTail")
         {
+          
             Destroy(gameObject);
 
 

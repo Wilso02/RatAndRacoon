@@ -313,6 +313,9 @@ GameObject:
   - component: {fileID: 749144963}
   - component: {fileID: 749144962}
   - component: {fileID: 749144965}
+  - component: {fileID: 749144968}
+  - component: {fileID: 749144967}
+  - component: {fileID: 749144966}
   m_Layer: 0
   m_Name: Dust
   m_TagString: Untagged
@@ -5126,6 +5129,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63a02d2f06af6d743aeea2effbd0735f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &749144966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749144961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3f2e0447edaa04697ed2b7379bdd16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+--- !u!114 &749144967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749144961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3f2e0447edaa04697ed2b7379bdd16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+--- !u!114 &749144968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749144961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3f2e0447edaa04697ed2b7379bdd16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
 --- !u!1 &1196401294
 GameObject:
   m_ObjectHideFlags: 0
