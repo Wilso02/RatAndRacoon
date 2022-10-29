@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Clicking : MonoBehaviour
+public class CappyCaught : MonoBehaviour
 {
 
-    void Update()
+    void OnMouseDown()
     {
 
         if (Input.GetMouseButtonDown(0))
@@ -13,11 +13,9 @@ public class Clicking : MonoBehaviour
             if (gameObject.name == "Cappy")
             {
                 Debug.Log("GOT YOU");
+                FindObjectOfType<GameManger>().WinGame();
             }
-            else
-            {
-                Debug.Log("wrong guy");
-            }
+         
         }
     }
 }
