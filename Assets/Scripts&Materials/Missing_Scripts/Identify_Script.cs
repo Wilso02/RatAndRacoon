@@ -17,12 +17,15 @@ public class Identify_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(1)
-           { 
-}
+        if (Input.GetMouseButtonDown(1))
+        {
 
 
 
+
+
+        }
+           
     }
     
 }
