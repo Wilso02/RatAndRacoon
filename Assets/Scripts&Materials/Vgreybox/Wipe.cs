@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Wipe : MonoBehaviour
 {
-  
-  
+
+
+
     
 void OnTriggerEnter(Collider collisionData)
     {
@@ -18,6 +19,7 @@ void OnTriggerEnter(Collider collisionData)
 
 
         }
+       
     }
 
    
