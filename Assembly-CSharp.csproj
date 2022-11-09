@@ -57,8 +57,8 @@
     <Compile Include="Assets\Scripts&amp;Materials\Objection\ObjButton.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\WinPanel.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\ThinkGood.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\RandomMovement.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\BridgeMovement.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\TimerBar.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\NotCappy.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_SceneManager.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\GameOverScript.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Lives.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\DestroyonTouch.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\CorrectBridge.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\SearchWeapons.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\GameManger.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\ChaseManager.cs" />
@@ -79,7 +80,6 @@
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\FollowMouse.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_EventManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\Text.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\CorrectBridge.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
