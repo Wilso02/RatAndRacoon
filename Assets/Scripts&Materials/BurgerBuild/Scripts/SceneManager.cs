@@ -4,7 +4,7 @@ using UnityEngine;
  
 public class SceneManager : MonoBehaviour
 {
-   public delegate void TriggerEvent;
+    public delegate void TriggerEvent();
     public static event TriggerEvent OnTrigger;
 
     void OnTriggerEnter(Collider BunSnap)
