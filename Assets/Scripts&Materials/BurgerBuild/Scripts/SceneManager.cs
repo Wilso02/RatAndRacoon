@@ -1,7 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- 
+
 public class SceneManager : MonoBehaviour
 {
     public delegate void TriggerEvent();
@@ -23,4 +24,6 @@ public class SceneManager : MonoBehaviour
             print("win count is now" + WinCondition.WinCount);
         }
     }
+
+    
 }
