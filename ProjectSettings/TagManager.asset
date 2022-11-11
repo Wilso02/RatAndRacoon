@@ -8,6 +8,8 @@ TagManager:
   - CorrectBridge
   - Dust
   - buns
+  - Dumpster
+  - Rubbish
   layers:
   - Default
   - TransparentFX
