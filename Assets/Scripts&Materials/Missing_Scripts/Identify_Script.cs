@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Identify_Script : MonoBehaviour
 {
-    public GameObject[] IdentifySelections;
-    
+    bool collided = false;
+    public IdentifyManager identifyManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,18 +15,27 @@ public class Identify_Script : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(1))
-        {
+        
+            Debug.Log("You Found a Mistake!");
 
-
-
-
-
-        }
-           
     }
-    
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        collided = true;
+        gameObject.SetActive(false);
+
+
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+
+        collided = false;
+
+    }
+
 }

@@ -59,20 +59,25 @@
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\ThinkGood.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\RandomMovement.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\BridgeMovement.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\NotCappy.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_SceneManager.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\Identify_Script.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\FindBody\Score.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\FindBody\FindGameManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\FindBody\DragRubbish.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\GameOverScript.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Lives.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\DestroyonTouch.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\Burger_SceneManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\FindBody\BodyProximity.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Gameman.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\CorrectBridge.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\SearchWeapons.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\GameManger.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\ChaseManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\EventWin.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\FindBody\EventManagerFind.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\EventManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\EventGameOver.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Wipe.cs" />
@@ -84,6 +89,9 @@
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\FollowMouse.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_EventManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\Text.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\EXAMPLEEND.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\FindBody\RubbishSpawn.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\IdentifyManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
