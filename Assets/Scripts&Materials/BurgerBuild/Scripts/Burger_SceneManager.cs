@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Burger_SceneManager : MonoBehaviour
 {
-    public delegate void TriggerEvent();
+    /*public delegate void TriggerEvent();
     public static event TriggerEvent OnTrigger;
 
     void OnTriggerEnter(Collider BunSnap)
@@ -23,7 +23,7 @@ public class Burger_SceneManager : MonoBehaviour
             WinCondition.WinCount =+ 1;
             print("win count is now" + WinCondition.WinCount);
         }
-    }
+    }*/
 
     
 }
