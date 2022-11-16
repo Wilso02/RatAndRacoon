@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DestroyonTouch : MonoBehaviour
 {
+
+    public ThinkManager thinkManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +19,10 @@ public class DestroyonTouch : MonoBehaviour
         
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         Destroy(this.gameObject);
+        thinkManager.destroyIntrusive++;
+        print("Intrusive Thoughts Destroyed: " + thinkManager.destroyIntrusive);
     }
 }
