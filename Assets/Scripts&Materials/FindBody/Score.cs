@@ -6,6 +6,8 @@ public class Score : MonoBehaviour
 {
     //the score for the micro game
     public int rubbishRemoved;
+    //public int addScore;
+    bool TimerEnded = false;
 
     //enable shared event
     void OnEnable()
@@ -30,9 +32,29 @@ public class Score : MonoBehaviour
         //if 5 or more rubbish removed,
         if (rubbishRemoved >= 5)
         {
-            //win condition met
-            Debug.Log("Win");
-            EndGame();
+            Endgame();
         }
     }
+
+        void TimerLength()
+        {
+            TimerEnded = true;
+            Endgame();
+
+
+        }
+
+        void Endgame()
+        {
+            if (rubbishRemoved >= 5)
+            {
+                Shared_EventManager.GameWon();
+            }
+          else if(TimerEnded == true)
+            {
+           Shared_EventManager.GameOver();
+            }
+    
+
+        }
 }

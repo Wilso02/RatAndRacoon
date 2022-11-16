@@ -81,6 +81,7 @@ public class Shared_Timer : MonoBehaviour
     {
 
         isCounting = false;
+        // Why?
         countdownTime = 20.0f;
 
     }

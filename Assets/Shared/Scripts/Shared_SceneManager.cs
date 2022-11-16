@@ -18,18 +18,14 @@ public class Shared_SceneManager : MonoBehaviour
     //if lost in your game run the lost game event in your game script.
     private void OnEnable()
     {
-
         Shared_EventManager.GameCompleted += ProgressStartSwapTimer; //called from the Shared_EventManager script
         Shared_EventManager.LostTheGame += StartRetryTimer; // from the Shared_EventManager script
-
     }
 
     private void OnDisable()
     {
-
         Shared_EventManager.GameCompleted -= ProgressStartSwapTimer; //called from the Shared_EventManager script
         Shared_EventManager.LostTheGame -= StartRetryTimer; // from the Shared_EventManager script
-
     }
 
 
@@ -37,27 +33,23 @@ public class Shared_SceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         FailedBTN.SetActive(false); //failed button not active
         WinBTN.SetActive(false); //win button not active
         sceneChange = false; //SceneChange not active
         sceneRetry = false; //SceneRetry not active
-
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    if(sceneChange == true)
+        if(sceneChange == true)
         {
-
             float delayForSceneSwap = 3f;
             StartCoroutine(LoadNewSceneAfterDelay(delayForSceneSwap));
-
         }
 
-    if(sceneRetry == true)
+        if(sceneRetry == true)
         {
 
             float delayForSceneSwap = 3f;
@@ -71,14 +63,12 @@ public class Shared_SceneManager : MonoBehaviour
     {
         yield return new WaitForSeconds(delayForSceneSwap);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
     }
 
     IEnumerator LoadSameSceneAfterDelay(float delayForSceneSwap)
     {
         yield return new WaitForSeconds(delayForSceneSwap);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
     }
 
     void ProgressStartSwapTimer()

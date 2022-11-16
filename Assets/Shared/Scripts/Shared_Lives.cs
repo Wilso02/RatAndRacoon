@@ -92,9 +92,12 @@ public class Shared_Lives : MonoBehaviour
 
     }
 
+
+    // EVERYTHING UNDER HERE IS A QUESTION MARK
     void IncreaseLives()
     {
         //Sets the player prefs int to 3 which we'll use for the lives
+        //According to  the GDD it is not clear if every microgame should start with 3 lives or if they are lives that stick around for the whole game
         PlayerPrefs.SetInt("Lives", 3);
 
     }
