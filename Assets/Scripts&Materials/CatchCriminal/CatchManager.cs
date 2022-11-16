@@ -2,14 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThinkManager : MonoBehaviour
+public class CatchManager : MonoBehaviour
 {
-
-    public bool WinCondition = false;
-    bool GameWon = false;
     bool TimerEnded = false;
-
-    public int destroyIntrusive = 0;
 
     void OnEnable() //enable called event
     {
@@ -29,23 +24,7 @@ public class ThinkManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (destroyIntrusive == 4)
-        {
-            WinCondition = true;
-        }
 
-        if (WinCondition == true)
-        {
-
-            GameWon = true;
-            EndGame();
-
-        }
-    }
-
-    void Win()
-    {
-        
     }
 
     void TimerLength()
@@ -55,22 +34,13 @@ public class ThinkManager : MonoBehaviour
         EndGame();
 
     }
-
     void EndGame()
     {
-        if (GameWon == true)
-        {
-            print("Winner");
-            Cursor.lockState = CursorLockMode.Locked;
-            Shared_EventManager.GameWon();
-
-        }
-        else
-        {
+        
             print("Failure");
             Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameOver();
 
-        }
+        
     }
 }
