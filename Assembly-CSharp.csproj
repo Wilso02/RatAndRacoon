@@ -53,13 +53,14 @@
     <UnityVersion>2021.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\Mash.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\ObjButton.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\WinPanel.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\ThinkGood.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\RandomMovement.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\BridgeMovement.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\NotCappy.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\CatchManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\RatProjectile.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_SceneManager.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\Identify_Script.cs" />
@@ -72,10 +73,12 @@
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\Burger_SceneManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\BodyProximity.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Gameman.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\Projectile.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\CorrectBridge.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\SearchWeapons.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\GameManger.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\ChaseManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\ProjectileShooter.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\EventWin.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\EventManagerFind.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\EventManager.cs" />
@@ -86,12 +89,14 @@
     <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\Think.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\bunsLockIn.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\WinCondition.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\IdentifyManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\FollowMouse.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_EventManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\Text.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\EXAMPLEEND.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\RubbishSpawn.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\IdentifyManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\ThinkManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\SphereMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

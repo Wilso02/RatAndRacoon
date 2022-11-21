@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IdentifyManager : MonoBehaviour
 {
-    public GameObject[] identifyMistakes;
+    
 
     public bool WinCondition = false;
     bool GameWon = false;
@@ -24,17 +24,17 @@ public class IdentifyManager : MonoBehaviour
 
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         
+        if(WinCondition == true)
+        {
 
+            GameWon = true;
+
+        }
 
 
 
