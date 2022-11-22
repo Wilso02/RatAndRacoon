@@ -28,6 +28,4 @@ public class Dragger : MonoBehaviour
     {
         transform.position = GetMouseWorldPos() + mOffset;
     }
-
-    
 }
