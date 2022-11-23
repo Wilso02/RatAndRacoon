@@ -98,7 +98,7 @@ public class Shared_Lives : MonoBehaviour
     {
         //Sets the player prefs int to 3 which we'll use for the lives
         //According to  the GDD it is not clear if every microgame should start with 3 lives or if they are lives that stick around for the whole game
-        PlayerPrefs.SetInt("Lives", 3);
+        // PlayerPrefs.SetInt("Lives", 3);
 
     }
 
@@ -106,7 +106,7 @@ public class Shared_Lives : MonoBehaviour
     {
 
         playersLives--;
-        print(playersLives);
+        Debug.Log("The game was lost, player lives decreased to "+playersLives);
         PlayerPrefs.SetInt("Lives", playersLives);
         LoseScreen();
 

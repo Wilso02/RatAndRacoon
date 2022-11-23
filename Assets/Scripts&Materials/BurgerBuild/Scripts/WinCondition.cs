@@ -11,6 +11,7 @@ public class WinCondition : MonoBehaviour
         if(WinCount == 5)
         {
             print("you win!");
+            FindObjectOfType<BurgerGameManager>().WinGame();
         }
         else
         {
