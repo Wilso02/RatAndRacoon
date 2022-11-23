@@ -21,7 +21,7 @@ public class ThinkGood : MonoBehaviour
     public void OnMouseDown()
     {
         print("Failure");
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         Shared_EventManager.GameOver();
     }
 }
