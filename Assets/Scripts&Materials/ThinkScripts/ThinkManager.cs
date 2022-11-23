@@ -50,14 +50,12 @@ public class ThinkManager : MonoBehaviour
         if (GameWon == true)
         {
             print("Winner");
-            //Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameWon();
 
         }
         else
         {
             print("Failure");
-            //Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameOver();
 
         }
