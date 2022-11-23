@@ -20,12 +20,6 @@ public class ThinkManager : MonoBehaviour
         Shared_EventManager.EndOfMicroGame -= TimerLength; //from the "Shared_EventsManager"
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -43,11 +37,6 @@ public class ThinkManager : MonoBehaviour
         }
     }
 
-    void Win()
-    {
-        
-    }
-
     void TimerLength()
     {
 
@@ -61,14 +50,14 @@ public class ThinkManager : MonoBehaviour
         if (GameWon == true)
         {
             print("Winner");
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameWon();
 
         }
         else
         {
             print("Failure");
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameOver();
 
         }

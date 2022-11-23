@@ -5,50 +5,48 @@ using UnityEngine.SceneManagement;
 
 public class GameManger : MonoBehaviour
 {
-    bool GameWon = false;
-    bool TimerEnded = false;
+    bool gameWon = false;
 
-    // Start is called before the first frame update
+    void Start()
+    {
+        Cursor.visible = true;
+    }
+    
+
+    // OnEnable and OnDisable just link this GameFinished function to the event that gets called when the timer runs out. 
+    // If you do not include these lines there simply is no trimer
     void OnEnable()
     {
-        Shared_EventManager.EndOfMicroGame += TimerLength;
+        Shared_EventManager.EndOfMicroGame += GameFinished;
     }
 
     void OnDisable()
     {
-        Shared_EventManager.EndOfMicroGame -= TimerLength;
+        Shared_EventManager.EndOfMicroGame -= GameFinished;
     }
 
-
-    public void GameOver()
-    {
-        Endgame();
-
-    }
+    // A public function you can call to trigger a win. 
+    // It sets GameWon to true and calls GameFinished
     public void WinGame()
     {
-        GameWon = true;
-    }
-    void TimerLength()
-    {
-        TimerEnded = true;
-        Endgame();
+        gameWon = true;
+        GameFinished();
     }
 
-    void Endgame()
+    // GameFinished can be called at any time. 
+    // If WinGame was the function that led to this, GameWon is true and therefore it triggers the event manager for winning. 
+    // In any other situation it triggers the fail section of the event manager
+    public void GameFinished()
     {
-        if (GameWon == true && TimerEnded == true)
+        if (gameWon == true)
         {
             Shared_EventManager.GameWon();
         }
         else
         {
             Shared_EventManager.GameOver();
-        }
-
-
+        } 
     }
-
 }
 
 

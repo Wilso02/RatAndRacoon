@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2798704009998943306}
   - component: {fileID: 8586928094326688406}
   - component: {fileID: 2854744593739794232}
+  - component: {fileID: 8872644998695812371}
   m_Layer: 0
   m_Name: rubbish
   m_TagString: Rubbish
@@ -114,3 +115,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &8872644998695812371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7233962325157291063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e263577e96006614daafa7c25c5bf978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

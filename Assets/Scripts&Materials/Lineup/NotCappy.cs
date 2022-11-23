@@ -12,7 +12,7 @@ public class NotCappy : MonoBehaviour
         {
             Debug.Log("wrong guy");
 
-            FindObjectOfType<GameManger>().GameOver();
+            FindObjectOfType<GameManger>().GameFinished();
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BurgerGameManager : MonoBehaviour
+public class WeaponsManager : MonoBehaviour
 {
     bool gameWon = false;
 
@@ -29,7 +29,7 @@ public class BurgerGameManager : MonoBehaviour
     // GameFinished can be called at any time. 
     // If WinGame was the function that led to this, GameWon is true and therefore it triggers the event manager for winning. 
     // In any other situation it triggers the fail section of the event manager
-    void GameFinished() {
+    public void GameFinished() {
         if (gameWon == true)
         {
             Shared_EventManager.GameWon();

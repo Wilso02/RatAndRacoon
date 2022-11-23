@@ -4,24 +4,13 @@ using UnityEngine;
 
 public class EventGameOver : MonoBehaviour
 {
-    public delegate void ClickAction();
-    public static event ClickAction OnClicked;
-
-    /*void ToolClick()
+    public void OnMouseDown()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            print("click");
-            if (OnClicked != null)
-                OnClicked();
+            print("click! wrong one!");
+            //WeaponsManager.GameFinished();
+            FindObjectOfType<WeaponsManager>().GameFinished();
         }
-    }*/
-
-    void OnMouseDown()
-    {
-        print("click!");
-        if (OnClicked != null)
-            OnClicked();
-        //move plane to 2,3,-6 cause its wrong
     }
 }

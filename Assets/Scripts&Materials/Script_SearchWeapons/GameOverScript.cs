@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameOverScript : MonoBehaviour
 {
-    void OnEnable()
+    /*void OnEnable()
     {
         EventGameOver.OnClicked += GameOver;
     }
@@ -21,5 +21,5 @@ public class GameOverScript : MonoBehaviour
         pos.y = 3;
         pos.z = -6;
         transform.position = pos;
-    }
+    }*/
 }

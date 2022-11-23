@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shared_EventManager : MonoBehaviour
+public class EventsTemp : MonoBehaviour
 {
    //Event to end the timer function
     public delegate void EndOfTimer();
@@ -47,4 +47,6 @@ public class Shared_EventManager : MonoBehaviour
         GameCompleted();
 
     }
+
+    
 }

@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class EventWin : MonoBehaviour
 {
-    public delegate void ClickAction();
-    public static event ClickAction OnClicked;
-
-    void OnMouseDown()
+    public void OnMouseDown()
     {
-        print("click!");
-        if (OnClicked != null)
-            OnClicked();
+        if(Input.GetMouseButtonDown(0))
+        {
+            print("click!");
+            //WeaponsManager.WinGame();
+            FindObjectOfType<WeaponsManager>().WinGame();
+        }
+        
     }
 }

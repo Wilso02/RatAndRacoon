@@ -22,9 +22,5 @@ public class SearchWeapons : MonoBehaviour
         Cursor.visible = true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
