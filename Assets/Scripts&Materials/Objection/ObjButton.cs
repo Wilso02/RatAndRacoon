@@ -18,19 +18,13 @@ public class ObjButton : MonoBehaviour
     Rigidbody rb;
     public int score;
     public GameObject objButton;
+    GameObject buttonClone;
     public Material[] materials;
     Renderer rend;
+    bool GameWon = false;
 
+    public Transform spawn;
 
-    //void OnEnable()
-    //{
-    //EventManager.colSwap += ChangeMat;
-    //}
-
-    //void OnDisable()
-    //{
-    //EventManager.colSwap -= ChangeMat
-    //}
 
     // Start is called before the first frame update
     void Start()
@@ -58,7 +52,7 @@ public class ObjButton : MonoBehaviour
             {
                 case GameState.talking:
                     Debug.Log("do not click");
-                    EventManager.Chatter();
+                    //EventManager.Chatter();
 
                     if (score >= 1)
                     {
@@ -80,6 +74,8 @@ public class ObjButton : MonoBehaviour
                     }
                     else
                     {
+                        // Vector3 spawn = new Vector3(0, 0, 0);
+                        buttonClone = Instantiate(objButton, spawn);
                         StartCoroutine(TransitionTimer(1f, GameState.objection));
                     }
                     break;
@@ -87,11 +83,13 @@ public class ObjButton : MonoBehaviour
                 case GameState.objection:
                     if (score >= 1)
                     {
+                        Destroy(buttonClone);
                         Debug.Log("Objection!");
                         StartCoroutine(TransitionTimer(0.5f, GameState.win));
                     }
                     else
                     {
+                        Destroy(buttonClone);
                         StartCoroutine(TransitionTimer(1f, GameState.tooLate));
                     }
                     break;
@@ -103,10 +101,13 @@ public class ObjButton : MonoBehaviour
 
                 case GameState.win:
                     Debug.Log("Win");
+                    GameWon = true;
+                    Endgame();
                     break;
 
                 case GameState.lose:
                     Debug.Log("Lose");
+                    Endgame();
                     break;
             }
         }
@@ -118,5 +119,18 @@ public class ObjButton : MonoBehaviour
         gState = newState;
         //wait till after phase.
         simulate = true;
+    }
+
+    void Endgame()
+    {
+        if (GameWon == true)
+        {
+            Shared_EventManager.GameWon();
+        }
+        else
+        {
+            Shared_EventManager.GameOver();
+        }
+
     }
 }
