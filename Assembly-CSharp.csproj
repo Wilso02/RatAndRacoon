@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_6;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_6;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;SYSTEM_DRAWING</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -54,23 +54,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts&amp;Materials\Objection\ObjButton.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\WinPanel.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\ThinkGood.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\RandomMovement.cs" />
+    <Compile Include="Assets\Shared\Scripts\ThinkScripts\ThinkGood.cs" />
+    <Compile Include="Assets\Shared\Scripts\ThinkScripts\RandomMovement.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\BridgeMovement.cs" />
+    <Compile Include="Assets\Shared\Scripts\main_menu.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\NotCappy.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\CatchManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\RatProjectile.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_SceneManager.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\burgerLock.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\Identify_Script.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\BurgerGameManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\Score.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\FindGameManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\DragRubbish.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\GameOverScript.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Lives.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\DestroyonTouch.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\Burger_SceneManager.cs" />
+    <Compile Include="Assets\Shared\Scripts\ThinkScripts\DestroyonTouch.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\BodyProximity.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Gameman.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\Projectile.cs" />
@@ -86,25 +87,37 @@
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Wipe.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\CappyCaught.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\Dragger.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\Think.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\bunsLockIn.cs" />
+    <Compile Include="Assets\Shared\Scripts\ThinkScripts\Think.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\WinCondition.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\IdentifyManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\FollowMouse.cs" />
+    <Compile Include="Assets\Shared\Scripts\EventsTemp.cs" />
+    <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\WeaponsManager.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_EventManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\Text.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\EXAMPLEEND.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\RubbishSpawn.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\ThinkScripts\ThinkManager.cs" />
+    <Compile Include="Assets\Shared\Scripts\ThinkScripts\ThinkManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\SphereMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\poi-tools\Resources\Poi\PoiTexturePacker.shader" />
+    <None Include="Assets\_PoiyomiShaders\poiToonPresets.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\_PoiyomiShaders\Shaders\8.0\Poiyomi.shader" />
+    <None Include="Assets\_PoiyomiShaders\ThirdPartyLicenses\SILENT_LICENSE.txt" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\External\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\poi-tools\Resources\Poi\PoiTextureUnpacker.shader" />
+    <None Include="Assets\_PoiyomiShaders\Shaders\Extras\InvisStencil.shader" />
+    <None Include="Assets\_PoiyomiShaders\Shaders\8.0\Poiyomi Early Outline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\CREDITS.txt" />
+    <None Include="Assets\csc.rsp" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\poi-tools\Resources\Poi\ModularShadersGeneratorStyle.uss" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -112,14 +125,23 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\_PoiyomiShaders\Shaders\8.0\Poiyomi World.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\_PoiyomiShaders\Shaders\PoiLabels.txt" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\Example1.shader" />
+    <None Include="Assets\_PoiyomiShaders\ThirdPartyLicenses\LIL_LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\Example2.shader" />
+    <None Include="Assets\_PoiyomiShaders\Shaders\8.0\Poiyomi Outline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\_PoiyomiShaders\Shaders\Extras\MasterScanner.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\ThryPresetsExample.txt" />
+    <None Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Examples\ThryLabelExample.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -740,6 +762,9 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
@@ -820,6 +845,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ThryAssemblyDefinition.csproj">
+      <Project>{CD5B35FF-5E0E-004D-80C5-AFE1CDD9F32D}</Project>
+      <Name>ThryAssemblyDefinition</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
