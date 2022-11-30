@@ -19,6 +19,8 @@ public class ObjButton : MonoBehaviour
     public int score;
     public GameObject objButton;
     GameObject buttonClone;
+    public GameObject objStatement;
+    GameObject statementClone;
     public Material[] materials;
     Renderer rend;
     bool GameWon = false;
@@ -84,6 +86,7 @@ public class ObjButton : MonoBehaviour
                     if (score >= 1)
                     {
                         Destroy(buttonClone);
+                        statementClone = Instantiate(objStatement, spawn);
                         Debug.Log("Objection!");
                         StartCoroutine(TransitionTimer(0.5f, GameState.win));
                     }
