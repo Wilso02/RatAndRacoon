@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Shared_EventManager : MonoBehaviour
 {
+
+
    //Event to end the timer function
     public delegate void EndOfTimer();
     public static event EndOfTimer EndOfMicroGame;
@@ -14,7 +16,7 @@ public class Shared_EventManager : MonoBehaviour
         EndOfMicroGame();
 
     }
-        
+       
     //Event for a Time Lose Function
     public delegate void StopTheTimer();
     public static event StopTheTimer StopTimer;
