@@ -23,7 +23,7 @@ public class Projectile : MonoBehaviour
         if(collisionData.collider.name == "Capybara")
         {
             print("Winner");
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameWon();
             Destroy(this.gameObject);
         }
@@ -31,7 +31,7 @@ public class Projectile : MonoBehaviour
         if (collisionData.collider.name == "Wall")
         {
             print("Failure");
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameOver();
             Destroy(this.gameObject);
         }
