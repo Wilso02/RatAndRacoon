@@ -8,7 +8,7 @@ public class WinCondition : MonoBehaviour
 
     public static void WinCheck()
     {
-        if(WinCount == 5)
+        if(WinCount == 6)
         {
             print("you win!");
             FindObjectOfType<BurgerGameManager>().WinGame();
