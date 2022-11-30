@@ -17,7 +17,7 @@ public class RubbishSpawn : MonoBehaviour
         for (int i = 0; i < numberOfRubbish; i++)
         {
             //chose a random position between          x 2 and -2,          y  4 and -4, and  z -1
-            Vector3 randomPosition = new Vector3(Random.Range(2, -2), Random.Range(4, -4), -1);
+            Vector3 randomPosition = new Vector3(Random.Range(2, -2), Random.Range(3, -4), -1);
             //and spawn a rubbish bag
             Instantiate(rubbish, randomPosition, Quaternion.identity);
         }

@@ -27,8 +27,8 @@ public class FindGameManager : MonoBehaviour
     void AddScore()
     {
         rubbishRemoved++;
-        //if 5 or more rubbish removed,
-        if (rubbishRemoved >= 5)
+        //if 6 or more rubbish removed,
+        if (rubbishRemoved >= 6)
         {
             GameWon = true;
             Endgame();
