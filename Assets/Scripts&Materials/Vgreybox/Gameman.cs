@@ -4,14 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Gameman : MonoBehaviour
 {
-    void Update()
-    {
-        if (!GameObject.FindWithTag("Dust"))
-        {
-           WinGame();
-        }
-
-    }
+  
 
     bool gameWon = false;
 
@@ -29,12 +22,21 @@ public class Gameman : MonoBehaviour
 
     // A public function you can call to trigger a win. 
     // It sets GameWon to true and calls GameFinished
+    void Update()
+    {
+        if (!GameObject.FindWithTag("Dust"))
+        {
+            
+            WinGame();
+        }
+
+    }
     public void WinGame()
     {
         gameWon = true;
         GameFinished();
     }
-
+    
     // GameFinished can be called at any time. 
     // If WinGame was the function that led to this, GameWon is true and therefore it triggers the event manager for winning. 
     // In any other situation it triggers the fail section of the event manager
