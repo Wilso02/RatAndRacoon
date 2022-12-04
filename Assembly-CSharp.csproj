@@ -66,13 +66,13 @@
     <Compile Include="Assets\Shared\Scripts\Shared_Timer.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\Identify_Script.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\BurgerGameManager.cs" />
-    <Compile Include="Assets\Scripts&amp;Materials\FindBody\Score.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\FindGameManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\DragRubbish.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\GameOverScript.cs" />
     <Compile Include="Assets\Shared\Scripts\Shared_Lives.cs" />
     <Compile Include="Assets\Shared\Scripts\ThinkScripts\DestroyonTouch.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\BodyProximity.cs" />
+    <Compile Include="Assets\Shared\Scripts\Shared_CameraMakeGood.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Gameman.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\Projectile.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\CorrectBridge.cs" />
@@ -87,7 +87,7 @@
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\Wipe.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\CappyCaught.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\Dragger.cs" />
-    <Compile Include="Assets\Shared\Scripts\ThinkScripts\Think.cs" />
+    <Compile Include="Assets\Shared\Scripts\Credits&amp;LoseScene\CreditsAndLose.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\BurgerBuild\Scripts\WinCondition.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Missing_Scripts\IdentifyManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Vgreybox\FollowMouse.cs" />
@@ -99,6 +99,7 @@
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\RubbishSpawn.cs" />
     <Compile Include="Assets\Shared\Scripts\ThinkScripts\ThinkManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\SphereMove.cs" />
+    <Compile Include="Assets\Shared\Scripts\Credits&amp;LoseScene\ReturnToMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

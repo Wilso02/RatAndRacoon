@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class IdentifyManager : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class IdentifyManager : MonoBehaviour
     public bool WinCondition = false;
     bool GameWon = false;
     bool TimerEnded = false;
+
+    public TextMeshProUGUI Score;
+    public int score = 0;
 
     private void OnEnable()
     {
@@ -29,7 +33,7 @@ public class IdentifyManager : MonoBehaviour
     void Update()
     {
         
-        if(WinCondition == true)
+        if(score == 6)
         {
 
             GameWon = true;
@@ -37,6 +41,14 @@ public class IdentifyManager : MonoBehaviour
         }
 
 
+
+    }
+
+    public void AddScore()
+    {
+
+        score += 1;
+        Score.text = "Mistake's Found: " + score + "/6";
 
     }
 

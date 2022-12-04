@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameScenes/MicroGames/V_Greybox.unity
     guid: fe017643e9f0f0640b76b70cc987ff60
-  - enabled: 0
+  - enabled: 1
     path: Assets/GameScenes/MicroGames/IdentifyMissing.unity
     guid: c7aa540dc4dfd4d459beaa1480fbb646
   - enabled: 1
