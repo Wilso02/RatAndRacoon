@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Shared_Lives : MonoBehaviour
 {
 
-    private int playersLives;
+    public static int playersLives;
 
     public GameObject livesUI_1;
     public GameObject livesUI_2;
@@ -34,7 +34,7 @@ public class Shared_Lives : MonoBehaviour
 
         //set int playerLives to obtain the pref int
         playersLives = PlayerPrefs.GetInt("Lives");
-
+        PlayerPrefs.SetInt("Lives", 3);
     }
 
     // Start is called before the first frame update

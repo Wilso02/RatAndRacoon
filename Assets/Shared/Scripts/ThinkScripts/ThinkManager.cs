@@ -7,7 +7,6 @@ public class ThinkManager : MonoBehaviour
 
     public bool WinCondition = false;
     bool GameWon = false;
-    bool TimerEnded = false;
 
     public int destroyIntrusive = 0;
 
@@ -39,10 +38,7 @@ public class ThinkManager : MonoBehaviour
 
     void TimerLength()
     {
-
-        TimerEnded = true;
         EndGame();
-
     }
 
     void EndGame()

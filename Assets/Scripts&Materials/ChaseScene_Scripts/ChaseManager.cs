@@ -8,8 +8,8 @@ public class ChaseManager : MonoBehaviour
     public GameObject correctChoice;
 
     public bool WinCondition = false;
-    bool GameWon = false;
-    bool TimerEnded = false;
+    //bool GameWon = false;
+    //bool TimerEnded = false;
 
 
 
