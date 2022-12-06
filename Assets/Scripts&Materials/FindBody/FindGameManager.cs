@@ -7,7 +7,7 @@ public class FindGameManager : MonoBehaviour
     //the score for the micro game
     public int rubbishRemoved;
     bool GameWon = false;
-    bool TimerEnded = false;
+   
 
     //allow the event manager and this script to interact when asked
     void OnEnable()
@@ -39,7 +39,6 @@ public class FindGameManager : MonoBehaviour
 
     void TimerLength()
     {
-        TimerEnded = true;
         Endgame();
     }
 
