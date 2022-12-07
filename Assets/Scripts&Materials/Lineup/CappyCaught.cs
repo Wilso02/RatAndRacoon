@@ -16,6 +16,6 @@ public class CappyCaught : MonoBehaviour
                 FindObjectOfType<GameManger>().WinGame();
             }
          
-        }
+        } 
     }
 }

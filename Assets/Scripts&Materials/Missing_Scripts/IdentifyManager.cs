@@ -33,7 +33,7 @@ public class IdentifyManager : MonoBehaviour
     void Update()
     {
         
-        if(score == 6)
+        if(score == 5)
         {
 
             GameWon = true;
