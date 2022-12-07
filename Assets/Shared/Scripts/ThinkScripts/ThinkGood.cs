@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ThinkGood : MonoBehaviour
 {
-    
+    [SerializeField] private AudioSource popThought;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +20,7 @@ public class ThinkGood : MonoBehaviour
     public void OnMouseDown()
     {
         print("Failure");
+        popThought.Play();
         //Cursor.lockState = CursorLockMode.Locked;
         Shared_EventManager.GameOver();
     }
