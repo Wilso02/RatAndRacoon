@@ -12,6 +12,11 @@ public class Shared_SceneManager : MonoBehaviour
 
     public GameObject FailedBTN; //LoseButton or LoseScreen
     public GameObject WinBTN; //WinButton or WinScreen
+    public Image endImage;
+    public Sprite winSprite;
+    public Sprite loseSprite;
+
+    public bool oldMode = false;
 
     //these events help with determing whether the game wins or loses,
     //if lost in your game the script will run the complete game event in your games script,
@@ -33,8 +38,10 @@ public class Shared_SceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FailedBTN.SetActive(false); //failed button not active
-        WinBTN.SetActive(false); //win button not active
+        if (oldMode) {
+            FailedBTN.SetActive(false); //failed button not active
+            WinBTN.SetActive(false); //win button not active
+        }
         sceneChange = false; //SceneChange not active
         sceneRetry = false; //SceneRetry not active
     }
@@ -73,16 +80,28 @@ public class Shared_SceneManager : MonoBehaviour
 
     void ProgressStartSwapTimer()
     {
-
-        WinBTN.SetActive(true);
+        Debug.Log("I think this is where you win?");
+        if (oldMode) {
+            WinBTN.SetActive(true);
+        } else {
+            Debug.Log("CHANGE THE SPRITE PLS");
+            endImage.sprite = winSprite;
+            endImage.color = new Color32(255,255,225,255);
+        }
         sceneChange = true;
 
     }
 
     void StartRetryTimer()
     {
-
-        FailedBTN.SetActive(true);
+        Debug.Log("I think this is where you lose?");
+        if (oldMode) {
+            FailedBTN.SetActive(true);
+        } else {
+            Debug.Log("CHANGE THE SPRITE PLS");
+            endImage.sprite = loseSprite;
+            endImage.color = new Color32(255,255,225,255);
+        }
         sceneRetry = true;
 
     }
