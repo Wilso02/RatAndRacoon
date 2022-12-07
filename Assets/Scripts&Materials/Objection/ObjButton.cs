@@ -88,7 +88,7 @@ public class ObjButton : MonoBehaviour
                         Destroy(buttonClone);
                         statementClone = Instantiate(objStatement, spawn);
                         Debug.Log("Objection!");
-                        StartCoroutine(TransitionTimer(0.5f, GameState.win));
+                        StartCoroutine(TransitionTimer(1f, GameState.win));
                     }
                     else
                     {
