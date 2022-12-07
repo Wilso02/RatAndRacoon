@@ -17,7 +17,6 @@ void OnTriggerEnter(Collider collisionData)
             Destroy(gameObject);
 
 
-
         }
        
     }

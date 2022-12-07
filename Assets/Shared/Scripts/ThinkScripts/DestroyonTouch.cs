@@ -6,6 +6,7 @@ public class DestroyonTouch : MonoBehaviour
 {
 
     public ThinkManager thinkManager;
+    [SerializeField] private AudioSource popThought;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class DestroyonTouch : MonoBehaviour
     {
         Destroy(this.gameObject);
         thinkManager.destroyIntrusive++;
+        popThought.Play();
         print("Intrusive Thoughts Destroyed: " + thinkManager.destroyIntrusive);
     }
 }
