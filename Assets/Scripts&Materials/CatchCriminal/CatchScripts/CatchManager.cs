@@ -40,6 +40,8 @@ public class CatchManager : MonoBehaviour
     // If WinGame was the function that led to this, GameWon is true and therefore it triggers the event manager for winning. 
     // In any other situation it triggers the fail section of the event manager
     void GameFinished() {
+
+
         if (gameWon == true)
         {
             Shared_EventManager.GameWon();
