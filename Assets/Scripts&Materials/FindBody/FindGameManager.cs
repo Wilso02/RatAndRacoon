@@ -36,7 +36,7 @@ public class FindGameManager : MonoBehaviour
             Debug.Log("Win");
         }
     }
-
+    //Timer reaches zero, end the game
     void TimerLength()
     {
         Endgame();
@@ -44,12 +44,15 @@ public class FindGameManager : MonoBehaviour
 
     void Endgame()
     {
+        //if the rubbish is removed,
         if(GameWon == true)
         {
+            //player moves forward
             Shared_EventManager.GameWon();
         }
         else
         {
+            //otherwise, they lose a life
             Shared_EventManager.GameOver();
         }
 
