@@ -41,6 +41,7 @@ public class ObjButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //when the mouse is clicked, add to the score
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("working");
@@ -54,15 +55,16 @@ public class ObjButton : MonoBehaviour
             {
                 case GameState.talking:
                     Debug.Log("do not click");
-                    //EventManager.Chatter();
-
+                 
+                    //if the player has clicked early,
                     if (score >= 1)
                     {
-
+                        //they lose
                         StartCoroutine(TransitionTimer(1f, GameState.lose));
                     }
                     else
                     {
+                        //otherwise after a random time between 1-7 second, change state 
                         StartCoroutine(TransitionTimer(Random.Range(1f, 7f), GameState.click));
                     }
                     break;
@@ -71,12 +73,13 @@ public class ObjButton : MonoBehaviour
                     Debug.Log("click");
                     if (score >= 1)
                     {
+                        //if they've clicked before this, they clicked too early and fail
                         Debug.Log("Too Early");
                         StartCoroutine(TransitionTimer(1f, GameState.lose));
                     }
                     else
                     {
-                        // Vector3 spawn = new Vector3(0, 0, 0);
+                        //otherwise create an object to indicate to click
                         buttonClone = Instantiate(objButton, spawn);
                         StartCoroutine(TransitionTimer(1f, GameState.objection));
                     }
@@ -85,6 +88,7 @@ public class ObjButton : MonoBehaviour
                 case GameState.objection:
                     if (score >= 1)
                     {
+                        //if the player clicked, spawn the objection indicator
                         Destroy(buttonClone);
                         statementClone = Instantiate(objStatement, spawn);
                         Debug.Log("Objection!");
@@ -92,6 +96,7 @@ public class ObjButton : MonoBehaviour
                     }
                     else
                     {
+                        //otherwise the player loses
                         Destroy(buttonClone);
                         StartCoroutine(TransitionTimer(1f, GameState.tooLate));
                     }
