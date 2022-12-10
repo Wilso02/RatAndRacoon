@@ -7,6 +7,7 @@ public class main_menu : MonoBehaviour
     public void startgame()
     {
         SceneManager.LoadScene(1);
+        PlayerPrefs.SetInt("Lives", 3);
     }
 
     public void credits()
