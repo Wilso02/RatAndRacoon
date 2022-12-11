@@ -901,7 +901,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find the Mistakes in the New Photo!
+  m_text: Find the mistakes in the new photo to find clues!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9ff84b6a54b433c4ea0f6aa78adbead7, type: 2}
   m_sharedMaterial: {fileID: -6385443696733657127, guid: 9ff84b6a54b433c4ea0f6aa78adbead7, type: 2}
