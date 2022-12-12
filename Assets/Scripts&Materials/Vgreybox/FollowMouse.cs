@@ -10,7 +10,7 @@ public class FollowMouse : MonoBehaviour
 
     void Update()
     {
-        wiping.Play();
+     //  wiping.Play();
         pos = Input.mousePosition;
         pos.z = offset;
         transform.position = Camera.main.ScreenToWorldPoint(pos);
