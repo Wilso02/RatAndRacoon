@@ -8,7 +8,7 @@ public class Shared_Lives : MonoBehaviour
 {
 
     public static int playersLives;
-
+    public AudioSource sfx_LoseLife;
     public GameObject livesUI_1;
     public GameObject livesUI_2;
     public GameObject livesUI_3;
@@ -70,6 +70,7 @@ public class Shared_Lives : MonoBehaviour
 
     void DecreaseLives()
     {
+        sfx_LoseLife.Play();
         playersLives--;
         Debug.Log("The game was lost, player lives decreased to "+playersLives);
         PlayerPrefs.SetInt("Lives", playersLives);
