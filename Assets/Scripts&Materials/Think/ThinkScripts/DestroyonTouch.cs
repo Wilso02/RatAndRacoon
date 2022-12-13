@@ -6,7 +6,7 @@ public class DestroyonTouch : MonoBehaviour
 {
 
     public ThinkManager thinkManager;
-    [SerializeField] private AudioSource popThought;
+    public AudioSource popThought;
 
     // Start is called before the first frame update
     void Start()
