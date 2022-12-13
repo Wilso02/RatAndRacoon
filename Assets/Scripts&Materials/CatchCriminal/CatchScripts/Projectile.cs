@@ -6,7 +6,8 @@ public class Projectile : MonoBehaviour
 {
 
     private Rigidbody _rb;
-
+    public AudioSource sfx_Tackle;
+    
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
@@ -22,6 +23,7 @@ public class Projectile : MonoBehaviour
         
         if(collisionData.collider.name == "Capybara")
         {
+            sfx_Tackle.Play();
             print("Winner");
             //Cursor.lockState = CursorLockMode.Locked;
             Shared_EventManager.GameWon();

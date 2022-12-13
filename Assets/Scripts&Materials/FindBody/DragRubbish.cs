@@ -7,17 +7,23 @@ public class DragRubbish : MonoBehaviour
     private Vector3 mOffset;
     //collects the z axis position of the game object
     private float mZCoord;
-    [SerializeField] private AudioSource leafRussle;
+    //[SerializeField] private AudioSource leafRussle;
+    public AudioSource sfx_Leaf;
 
     void OnMouseDown()
     {
         //locking in the z axis position for the game object
         mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
-
+        sfx_Leaf.Play();
         //mouse offset = game objects position in the world - mouse position in the world
         mOffset = gameObject.transform.position - GetMouseWorldPos();
     }
 
+    void OnMouseUp()
+    {
+        Debug.Log("Drag ended!");
+        sfx_Leaf.Play();
+    }
 
     private Vector3 GetMouseWorldPos()
     {
@@ -31,7 +37,7 @@ public class DragRubbish : MonoBehaviour
 
     void OnMouseDrag()
     {
-        leafRussle.Play();
+        //leafRussle.Play();
         //move the object to the position created above
         transform.position = GetMouseWorldPos() + mOffset;
     }
