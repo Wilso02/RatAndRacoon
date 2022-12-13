@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts&amp;Materials\Lineup\GameManger.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\ChaseScene_Scripts\ChaseManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\ProjectileShooter.cs" />
+    <Compile Include="Assets\Shared\Scripts\Credits&amp;LoseScene\ReturnToMenu.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Script_SearchWeapons\EventWin.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\EventManagerFind.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\Objection\EventManager.cs" />
@@ -99,7 +100,6 @@
     <Compile Include="Assets\Scripts&amp;Materials\FindBody\RubbishSpawn.cs" />
     <Compile Include="Assets\Shared\Scripts\ThinkScripts\ThinkManager.cs" />
     <Compile Include="Assets\Scripts&amp;Materials\CatchCriminal\SphereMove.cs" />
-    <Compile Include="Assets\Shared\Scripts\Credits&amp;LoseScene\ReturnToMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
