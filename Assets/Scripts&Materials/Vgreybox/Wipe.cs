@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class Wipe : MonoBehaviour
 {
-
-
-
-    
-void OnTriggerEnter(Collider collisionData)
+    private AudioSource sfx_Swipe;
+  
+    void OnTriggerEnter(Collider collisionData)
     {
 
         if (collisionData.gameObject.name == "RacoonTail")
         {
-          
+            sfx_Swipe = gameObject.GetComponentInParent<AudioSource>();
+            sfx_Swipe.Play();
             Destroy(gameObject);
-
-
         }
        
     }
